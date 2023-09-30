@@ -1,0 +1,5 @@
+jumlah_hari = int(input("Masukan jumlah hari: "))
+jumlah_tahun = int(jumlah_hari/365)
+jumlah_mingguan = int(jumlah_hari % 365 / 7)
+sisa_jumlah_hari = int(jumlah_hari % 365 % 7)
+print(f"tahun = {jumlah_tahun}, minggu + {jumlah_mingguan}, hari={sisa_jumlah_hari}")
